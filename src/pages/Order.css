@@ -1,0 +1,27 @@
+.order-section{
+    background-color: #F2E9FE;
+    padding: 4vw;
+}
+.order-section>.section-title{
+    text-align: start;
+    padding: 0;
+    margin: 0;
+}
+.order-section p{
+    font-size: 18px;
+}
+.order-section p span{
+    color: #8C52FF;
+}
+.order-section p a span:hover{
+    color: #FF914D;
+}
+.order-step{
+    margin: 5px 30px;
+    padding: 0 30px;
+    border-left: 2px solid #FF914D;
+}
+.lastword{
+    font-weight: 700;
+    text-align: center;
+}

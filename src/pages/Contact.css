@@ -1,0 +1,71 @@
+.contact-page{
+    background-color: #F2E9FE;
+    height: 67vh;
+    padding: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-page>p{
+    font-size: 18px;
+}
+.contact-page>h1{
+    color: #8C52FF;
+    font-weight: 500;
+    font-size: 35px;
+}
+.contact-page>h1>span{
+    color: #FF914D;
+}
+.waktu, .tempat{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.contact-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.contact-direct{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 28px;
+    border: 1px solid #8C52FF;
+    border-radius: 100px;
+    background-color: #8C52FF;
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+}
+.contact-direct:hover{
+    background-color: #CD62F9;
+    border: 1px solid #CD62F9;
+}
+.direct-icon-wa, .direct-icon-email{
+    border: 1px solid #8C52FF;
+    border-radius: 100px;
+    background-color: #F2E9FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.direct-icon-wa:hover, .direct-icon-email:hover{
+    border: 1px solid #CD62F9;
+}
+.direct-icon-wa>img{
+    width: 30px;
+    padding: 8px 8px;
+}
+.direct-icon-email>img{
+    width: 30px ;
+    padding: 12px 8px;
+}

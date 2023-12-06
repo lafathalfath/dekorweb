@@ -1,0 +1,27 @@
+footer{
+    border-top: 2px solid #8C52FF;
+}
+.footer-container{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+p{
+    font-size: 14px;
+}
+.footer-container>p>span{
+    color: #8C52FF;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.footer-icon{
+    width: 70%;
+}

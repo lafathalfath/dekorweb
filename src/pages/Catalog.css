@@ -1,0 +1,20 @@
+.catalog-section{
+    background-color: #F2E9FE;
+    padding: 4vw;
+}
+.catalog-section p{
+    font-size: 18px;
+    text-align: center;
+}
+.catalog-img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.catalog-img-container>img{
+    width: 350px;
+    padding: 10px 0;
+}
